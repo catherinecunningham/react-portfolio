@@ -1,0 +1,280 @@
+:root {
+  --primary-color: #9caf88;
+  --secondary-color: #ccd6c2;
+  --tertiary-color: #333d29;
+}
+
+* {
+  background: var(--primary-color);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: var(--tertiary-color);
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  background: none;
+  text-shadow: 2px 2px #f2f5f0;
+  font-weight: bold;
+}
+
+.lower-title {
+  text-align: center;
+  font-size: 32px;
+  color: var(--tertiary-color);
+}
+
+/* Header Styles Start */
+header {
+  background-color: var(--primary-color);
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 48px;
+  margin: 0;
+  color: var(--tertiary-color);
+}
+
+header h1 a {
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  text-decoration: underline;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 15px 20px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  background: var(--tertiary-color);
+  color: var(--secondary-color);
+  border-radius: 15px;
+  text-shadow: none;
+}
+/* Header Styles End */
+
+/* About Me Styles Start */
+#about-me {
+  margin: 15px;
+  padding: 3px;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-color: var(--secondary-color);
+  border: var(--tertiary-color) solid 3px;
+}
+
+#profile-img {
+  width: 20%;
+  margin: 3.5%;
+  border-radius: 15%;
+}
+
+#about-me article {
+  width: 55%;
+  text-align: left;
+  margin: 3.5%;
+  line-height: 1.2;
+  background-color: var(--secondary-color);
+}
+
+#about-me h2 {
+  background-color: var(--secondary-color);
+  font-style: italic;
+  color: var(--tertiary-color);
+  margin-top: 40px;
+}
+
+#about-me p {
+  background-color: var(--secondary-color);
+  font-size: 20px;
+  color: var(--tertiary-color);
+}
+/* About Me Styles End */
+
+/* About My Work Styles Start */
+.first-image {
+  position: relative;
+  color: black;
+  width: 65%;
+  margin: 5px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.first-image img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.first-image img a {
+  background: transparent;
+}
+
+.lower-images {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.application-image {
+  position: relative;
+  color: black;
+  margin: 20px;
+  flex: 1;
+}
+
+.application-image img {
+  width: 100%;
+  border-radius: 10%;
+}
+/* About Me Styles End */
+
+/* Contact Info Styles Start */
+#contact-info {
+  background-color: var(--secondary-color);
+  width: 100%;
+  border: var(--tertiary-color) solid 3px;
+}
+
+#contact-info h2 {
+  background-color: var(--secondary-color);
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#contact-info a {
+  background-color: var(--secondary-color);
+}
+
+#contact-info address {
+  padding-bottom: 10px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#contact-info address {
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
+#contact-info address a {
+  background-color: var(--secondary-color);
+}
+/* Contact Info Styles End */
+
+/* Footer Styles Start */
+.footer {
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  text-align: center;
+}
+/* Footer Styles End */
+
+/* MEDIA QUERY FOR 980PX BREAKPOINT */
+@media screen and (max-width: 980px) {
+  header nav ul li a {
+      font-size: 24px;
+  }
+  
+  #about-me h2 {
+      margin-top: 0;
+  }
+
+  #contact-info {
+      font-size: 24px;
+  }
+}
+/* END 980PX MEDIA QUERY */
+
+/* MEDIA QUERY FOR 768PX BREAKPOINT */
+@media screen and (max-width: 768px) {
+  #profile-img {
+      width: 30%;
+  }
+
+  #contact-info {
+      font-size: 18px;
+  }
+}
+/* END 768PX MEDIA QUERY */
+
+/*  MEDIA QUERY FOR 575PX BREAKPOINT */
+@media screen and (max-width: 575px) {
+  .lower-title {
+      font-size: 24px;
+  }
+
+  .top-left {
+      font-size: 12px;
+  }
+  
+  header {
+      margin-bottom: 10px;
+      padding: 10px;
+  }
+  
+  header h1 {
+      font-size: 30px;
+  }
+
+  header nav ul li a {
+      font-size: 16px;
+      padding: 10px 15px;
+  }
+  
+  #profile-img {
+      margin-top: 30px;
+  }
+
+  #about-me h1 {
+      margin-bottom: 0;
+  }
+  
+  #about-me p {
+      font-size: 14px;
+  }
+
+  #contact-info {
+      font-size: 14px;
+  }
+
+  footer {
+      font-size: 14px;
+  }
+}
+/* END 575PX MEDIA QUERY */
