@@ -21,6 +21,18 @@ function Projects() {
           <div className="top-left">Coding Quiz</div>
         </a>
       </div>
+      <div className="application-image">
+        <a href="https://catherinecunningham.github.io/mod-6-weatherdashboard/">
+          <img src={require("../images/weather-dashboard.png")} alt="A runner leans down to lace up their shoe" />
+          <div className="top-left">Weather Dashboard</div>
+        </a>
+      </div>
+      <div className="application-image">
+        <a href="https://catherinecunningham.github.io/mod-3-challenge-passwordgenerator/">
+          <img src={require("../images/password-generator.png")} alt="A runner leans down to lace up their shoe" />
+          <div className="top-left">Weather Dashboard</div>
+        </a>
+      </div>
     </div>
   </section>
     )
