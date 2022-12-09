@@ -17,20 +17,20 @@ function Projects() {
       </div>
       <div className="application-image">
         <a href="https://catherinecunningham.github.io/mod-4-challenge-codingquiz/">
-          <img src={require("../images/coding-quiz.png")} alt="A runner leans down to lace up their shoe" />
+          <img src={require("../images/coding-quiz.png")} alt="Screenshot of coding quiz app" />
           <div className="top-left">Coding Quiz</div>
         </a>
       </div>
       <div className="application-image">
         <a href="https://catherinecunningham.github.io/mod-6-weatherdashboard/">
-          <img src={require("../images/weather-dashboard.png")} alt="A runner leans down to lace up their shoe" />
+          <img src={require("../images/weather-dashboard.png")} alt="Screenshot of weather dashboard app" />
           <div className="top-left">Weather Dashboard</div>
         </a>
       </div>
       <div className="application-image">
         <a href="https://catherinecunningham.github.io/mod-3-challenge-passwordgenerator/">
-          <img src={require("../images/password-generator.png")} alt="A runner leans down to lace up their shoe" />
-          <div className="top-left">Weather Dashboard</div>
+          <img src={require("../images/password-generator.png")} alt="Screenshot of password generator app" />
+          <div className="top-left">Password Generator</div>
         </a>
       </div>
     </div>
