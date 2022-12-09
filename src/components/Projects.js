@@ -16,9 +16,9 @@ function Projects() {
         </a>
       </div>
       <div className="application-image">
-        <a href="https://catherinecunningham.github.io/run-buddy/">
-          <img src={require("../images/Run Buddy.png")} alt="A runner leans down to lace up their shoe" />
-          <div className="top-left">Run Buddy</div>
+        <a href="https://catherinecunningham.github.io/mod-4-challenge-codingquiz/">
+          <img src={require("../images/coding-quiz.png")} alt="A runner leans down to lace up their shoe" />
+          <div className="top-left">Coding Quiz</div>
         </a>
       </div>
     </div>
