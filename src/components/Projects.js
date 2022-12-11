@@ -33,6 +33,12 @@ function Projects() {
           <div className="top-left">Password Generator</div>
         </a>
       </div>
+      <div className="application-image">
+        <a href="https://catherinecunningham.github.io/mod-3-challenge-passwordgenerator/">
+          <img src={require("../images/break-away.png")} alt="Screenshot of Break Away app" />
+          <div className="top-left">Break Away</div>
+        </a>
+      </div>
     </div>
   </section>
     )
