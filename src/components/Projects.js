@@ -34,7 +34,7 @@ function Projects() {
         </a>
       </div>
       <div className="application-image">
-        <a href="https://catherinecunningham.github.io/mod-3-challenge-passwordgenerator/">
+        <a href="https://breakaway.herokuapp.com/">
           <img src={require("../images/break-away.png")} alt="Screenshot of Break Away app" />
           <div className="top-left">Break Away</div>
         </a>
